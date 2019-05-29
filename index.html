@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      
+      </style>
+  </head>
+
+  <body>
+    <div>
+      <!-- As a link -->
+      <nav class="navbar  navbar-dark nav-color contain">
+          <div>
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+              
+              
+              <span style="font-size:30px;cursor:pointer;color: #f1f1f1" onclick="openNav()">&#9776;</span>
+              
+            </div>
+        <a class="navbar-brand header" href="#"><b>VEHICLE REGISTRATION</b> </a>
+
+        <div>
+          <ul class="navbar-nav">
+            <div id="navig">
+              <li class="nav-item">
+                <a class="nav-link c-gap" href="#"><b>ABOUT US</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c-gap" href="#"><b>CONTACT</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>LOGOUT</b></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+     
+      <div style="text-align:center;">
+        <div class="row contain">
+          <div class="col-sm-4">
+            <div class="card1 card-a">
+              <div class="row">
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <span class="num"><b>10</b></span>
+                </div>
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <img src="img/man-user.png" class="icon" />
+                </div>
+              </div>
+              <div class="row align">
+                <div class="names"><b>ADD OWNER</b></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card2 card-a">
+              <div class="row">
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <span class="num"><b>12</b></span>
+                </div>
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <img src="img/car-compact.png" class="icon" />
+                </div>
+              </div>
+              <div class="row align">
+                <div class="names"><b>ADD VEHICLE</b></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card3 card-a">
+              <div class="row">
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <span class="num"><b>10</b></span>
+                </div>
+                <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6">
+                  <img src="img/business-and-finance.png" class="icon" />
+                </div>
+              </div>
+              <div class="row align">
+                <div class="names"><b>TRANSACTIONS</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+            
+            <div class="c-graph" id="chartContainer" style="height: 500px; width: 60%;"></div>
+            
+            
+        
+        <div class="contain2">
+          <div class="row ">
+            <div class="col-sm-3">
+              <div class="card4 card-b">
+                <div class="row ">
+                  <img src="img/driver service 2.jpg" />
+                </div>
+                <div class="row text">
+                  Driver and Car Owner Services
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card5 card-b">
+                <div class="row ">
+                  <img src="img/business.jpg" />
+                </div>
+                <div class="row text">
+                  Business Corporate Services
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card6 card-b">
+                <div class="row ">
+                  <img src="img/payfine.png" />
+                </div>
+                <div class="row text1">
+                  <div>Pay Dubai Traffic Fines</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card7 card-b">
+                <div class="row ">
+                  <img src="img/renewable vehicle.png" />
+                </div>
+                <div class="row text">
+                  Driver and Car Owner Services
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      window.onload = function () {
+            
+            var chart = new CanvasJS.Chart("chartContainer", {
+              animationEnabled: true,
+              theme: "lights", // "light1", "light2", "dark1", "dark2"
+              title:{
+                text: "Vehicle Registeration"
+              },
+              axisY: {
+                title: "Vehicle Registered"
+              },
+                axisX:{
+                    title:"Year"
+            
+                },
+                  data: [{        
+                 type: "column",  
+                // showInLegend: true, 
+                //legendMarkerColor: "grey",
+                //legendText: "MMbbl = one million barrels",
+                dataPoints: [  
+                        // { y: 145,  label: "2005" },
+                  // { y: 200, label: "2006" },
+                  // { y: 800,  label: "2007" },
+                  // { y: 600,  label: "2008" },    
+                  { y: 300, label: "2011" },
+                  { y: 400,  label: "2012" },
+                  { y: 150,  label: "2013" },
+                  { y: 500,  label: "2014" },
+                  { y: 145,  label: "2015" },
+                  { y: 200, label: "2016" },
+                  { y: 800,  label: "2017" },
+                  { y: 600,  label: "2018" },
+                        
+                ]
+              }]
+            });
+            chart.render();
+            
+            }
+      </script>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  </body>
+</html>

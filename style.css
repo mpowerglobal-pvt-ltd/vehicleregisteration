@@ -1,0 +1,118 @@
+.card-a {
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 65px;
+  width: 300px;
+  height: 190px;
+  font: bold !important;
+  cursor: pointer;
+}
+.card-b {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 250px;
+  height: 135px;
+  font: bold !important;
+  cursor: pointer;
+}
+.c-gap {
+  margin-right: 50px;
+}
+
+.card1 {
+  background-color: rgb(255, 136, 0);
+}
+
+body {
+  background: url("img/bg1.jpg") no-repeat fixed center;
+}
+#navig {
+  display: flex;
+  justify-content: flex-end;
+}
+.card2 {
+  background-color: #00ff00;
+}
+
+.card3 {
+  background-color: rgb(0, 238, 255);
+}
+.card4 {
+  background-color: #ff22aa;
+}
+.card-b img {
+  width: 120px;
+  height: 75px;
+  margin: auto;
+  margin-top: 12px;
+}
+.card5 {
+  background-color: tomato;
+}
+.card6 {
+  background-color: skyblue;
+}
+.card7 {
+  background-color: purple;
+}
+
+.c-graph{
+text-align: center;
+margin: 40px 100px 40px 250px;
+}
+
+.header {
+  background-color: #fff;
+  color: #000 !important;
+  padding: 10px;
+  font-size: 25px;
+  margin-left: -600px;
+
+  float: left !important;
+  
+}
+div.row.text {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+div.row.text1 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 40px;
+}
+#gif {
+  height: 300px;
+  width: 65%;
+}
+.nav-color {
+  background-color: #000;
+}
+
+.icon {
+  width: 40px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+.names {
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contain {
+  margin: 10px 10px 0px 10px;
+}
+.contain2 {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+.num {
+  font-size: 25px;
+}
